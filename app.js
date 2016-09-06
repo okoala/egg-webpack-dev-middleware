@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = function(app) {
-  app.config.coreMiddleware.unshift('webpack')
+  app.config.coreMiddleware.unshift('webpackDevMiddleware')
 }

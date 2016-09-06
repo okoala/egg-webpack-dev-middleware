@@ -21,7 +21,7 @@ module.exports = function(options, app) {
     stats: options.stats
   }, {
     waitUntilValid: function() {
-      app.logger.info('[beidou:plugin:webpack] webpack dev server ready')
+      app.logger.info('[plugin:webpackDevMiddleware] webpack dev server ready')
     }
   })
 }
