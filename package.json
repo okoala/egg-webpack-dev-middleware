@@ -1,0 +1,55 @@
+{
+  "name": "egg-webpack-dev-middleware",
+  "version": "1.0.0",
+  "description": "egg webpack middleware",
+  "eggPlugin": {
+    "name": "webpack-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okoala/egg-webpack-dev-middleware.git"
+  },
+  "keywords": [
+    "egg",
+    "plugin",
+    "middleware"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0",
+    "koa-webpack-dev-middleware": "^1.2.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1"
+  },
+  "files": [
+    "app",
+    "lib",
+    "config",
+    "app.js"
+  ],
+  "engines": {
+    "node": ">=4.3.1"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint --fix lib test",
+    "ci": "npm run cov",
+    "autod": "autod -w --prefix '~' -D @ali/egg -s @ali/mm@4",
+    "contributors": "ali-contributors",
+    "release": "bash release.sh"
+  },
+  "ci": {
+    "version": "4, 6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okoala/egg-webpack-dev-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/okoala/egg-webpack-dev-middleware/issues"
+  },
+  "homepage": "https://github.com/okoala/egg-webpack-dev-middleware#readme",
+  "author": "Koala Huang<dapixp@gmail.com>",
+  "license": "MIT"
+}
