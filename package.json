@@ -1,6 +1,6 @@
 {
   "name": "egg-webpack-dev-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "egg webpack middleware",
   "eggPlugin": {
     "name": "webpackDevMiddleware"
