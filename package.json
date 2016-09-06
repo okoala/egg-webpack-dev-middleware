@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "egg webpack middleware",
   "eggPlugin": {
-    "name": "webpack-dev"
+    "name": "webpackDevMiddleware"
   },
   "repository": {
     "type": "git",
