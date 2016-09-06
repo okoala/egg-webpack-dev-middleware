@@ -12,8 +12,6 @@ then
   #npm test 2>/dev/null
 
   # commit
-  git add -A
-  git commit -m "[build] $VERSION"
   npm version $VERSION --message "[release] $VERSION"
 
   # publish
